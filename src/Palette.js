@@ -29,6 +29,7 @@ class Palette extends Component {
     return (
       <div className="Palette">
         <Slider
+          className="slider"
           defaultValue={500}
           min={100}
           max={900}
