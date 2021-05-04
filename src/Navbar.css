@@ -48,3 +48,7 @@
   margin-top: -3px;
   box-shadow: none;
 }
+
+.select-container {
+  margin: 0 1rem 0 auto;
+}
