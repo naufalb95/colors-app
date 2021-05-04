@@ -26,7 +26,7 @@ function generatePalette(starterPalette) {
         rgba: chroma(scale[i])
           .css()
           .replace('rgb', 'rgba')
-          .replace(')', ',0.1)')
+          .replace(')', ',1.0)')
       });
     }
   }
