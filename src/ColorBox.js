@@ -8,7 +8,7 @@ import chroma from 'chroma-js';
 import './ColorBox.css';
 
 const styles = {
-  colorBox: {
+  ColorBox: {
     width: '20%',
     height: (props) => (props.isFullPalette ? '25%' : '50%'),
     margin: '0 auto',
@@ -161,7 +161,7 @@ class ColorBox extends Component {
     return (
       <CopyToClipboard text={background} onCopy={this.changeCopyState}>
         <div
-          className={classes.colorBox}
+          className={classes.ColorBox}
           style={{ backgroundColor: background }}
         >
           <div
