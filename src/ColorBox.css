@@ -12,9 +12,9 @@
   height: 50%;
 } */
 
-.ColorBox.go-back {
+/* .ColorBox.go-back {
   background-color: black;
-}
+} */
 
 /* .light-text {
   color: #fff;
@@ -24,7 +24,7 @@
   color: rgba(0, 0, 0, 0.5);
 } */
 
-.copy-button,
+/* .copy-button,
 .back-button {
   display: inline-block;
   position: absolute;
@@ -43,7 +43,7 @@
   text-transform: uppercase;
   line-height: 30px;
   text-decoration: none;
-}
+} */
 
 /* .copy-button {
   opacity: 0;
