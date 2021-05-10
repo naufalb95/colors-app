@@ -42,7 +42,7 @@ class SingeColorPalette extends Component {
         colorId={color.id}
         key={color.name}
         background={color[format]}
-        showMore={false}
+        isFullPalette={false}
       />
     ));
 

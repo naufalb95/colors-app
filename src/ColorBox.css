@@ -16,6 +16,14 @@
   background-color: black;
 }
 
+.light-text {
+  color: #fff;
+}
+
+.ColorBox .dark-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .copy-button,
 .back-button {
   display: inline-block;
